@@ -1,12 +1,22 @@
 use rspolib::{pofile, prelude::*};
 
-fn main() {
-    let po = pofile("./domain-translate-de_DE.po").unwrap();
+/*
+https://docs.rs/rspolib/latest/rspolib/
+*/
 
-    for entry in &po.entries {
+fn main() {
+    let p = "./de.po";
+    let mut po = pofile(p).unwrap();
+
+    let target_lang = po.metadata["Language"].as_str();
+    println!("{:?}", target_lang);
+    for entry in &mut po.entries {
         println!("{}", entry.msgid);
         println!("{:?}", entry.msgstr);
-        println!("{:?}", entry.msgstr_plural);
+        entry.msgstr.replace("xxxx".to_string());
+        //break;
+        //println!("{:?}", entry.msgstr);
+        //println!("{:?}", entry.msgstr_plural);
     }
-    po.save("./file.po");
+    po.save(p);
 }
