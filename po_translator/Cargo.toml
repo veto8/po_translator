@@ -1,0 +1,13 @@
+[package]
+name = "po_translator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "*", features = ["json"] }
+rspolib = "*"
+tokio = { version = "*", features = ["macros", "rt-multi-thread"] }
+tokio-macros = "2.6.0"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+json = "*"
