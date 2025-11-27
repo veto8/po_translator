@@ -11,3 +11,4 @@ tokio-macros = "2.6.0"
 serde = { version = "*", features = ["derive"] }
 serde_json = "*"
 json = "*"
+is-url = "*"

@@ -1,3 +1,4 @@
+use is_url::is_url;
 use reqwest::Error;
 use rspolib::{pofile, prelude::*};
 use serde::Deserialize;
@@ -23,25 +24,27 @@ async fn main() -> Result<(), Error> {
 
     let target_lang = po.metadata["Language"].as_str();
     let source_lang = "en";
-    println!("{:?}", target_lang);
+    //println!("{:?}", source_lang);
     for entry in &mut po.entries {
-        if entry.translated() {
-            println!("{}", entry.msgid);
-            println!("{:?}", entry.msgstr);
-            entry.msgstr.replace("".to_string());
-            let url = format!("{0}?s={1}&t={2}&v=hello", api, source_lang, target_lang);
-            println!("{:?}", url);
-            //let r = reqwest::get(url).await?.json::<Trans>().await?;
+        //println!("{}", entry.msgid);
+        //        entry.msgstr.replace("".to_string());
+        if !entry.translated() {
+            if !is_url(&entry.msgid) {
+                println!("{}", entry.msgid);
+                //println!("{:?}", entry.msgstr);
 
-            //let mut map = HashMap::new();
-            //println!("{:?}", r.target_value);
-            break;
+                let url = format!(
+                    "{0}?s={1}&t={2}&v={3}",
+                    api, source_lang, target_lang, entry.msgid
+                );
+                //println!("{:?}", url);
 
-            //break;
-            //println!("{:?}", entry.msgstr);
-            //println!("{:?}", entry.msgstr_plural);
+                let r = reqwest::get(url).await?.json::<Trans>().await?;
+                //println!("{:?}", &r.target_value);
+                entry.msgstr.replace(r.target_value.to_string());
+            }
         }
     }
-    //po.save(p);
+    po.save(p);
     Ok(())
 }
