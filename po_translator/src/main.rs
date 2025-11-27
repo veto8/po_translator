@@ -4,6 +4,7 @@ use rspolib::{pofile, prelude::*};
 use serde::Deserialize;
 use serde_json;
 use std::collections::HashMap;
+use std::fs;
 //use std::io::{Error};
 /*
 https://docs.rs/rspolib/latest/rspolib/
@@ -17,6 +18,25 @@ struct Trans {
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
+    let mut v: Vec<String> = vec![];
+    match fs::read_dir("./") {
+        Ok(entries) => {
+            for entry in entries {
+                match entry {
+                    Ok(entry) => v.push(entry.file_name().into_string().unwrap().to_string()),
+                    Err(e) => eprintln!("Error: {}", e),
+                }
+            }
+        }
+        Err(e) => eprintln!("Error: {}", e),
+    }
+
+    for i in v {
+        if i.ends_with(".po") {
+            println!("{:?}", i);
+        }
+    }
+
     let p = "./th.po";
     let mut po = pofile(p).unwrap();
     //let api = "http://127.0.0.1:8089";
