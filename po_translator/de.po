@@ -15,6 +15,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: domain-translate\n"
 "X-Generator: WP-CLI 2.12.0\n"
+"X-Source-Language: en\n"
+
 
 #. Plugin Name of the plugin
 #: domain-translate.php
