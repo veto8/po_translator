@@ -18,26 +18,30 @@ struct Trans {
 async fn main() -> Result<(), Error> {
     let p = "./de.po";
     let mut po = pofile(p).unwrap();
+    //let api = "http://127.0.0.1:8089";
+    let api = "https://mtranslate.myridia.com";
 
     let target_lang = po.metadata["Language"].as_str();
+    let source_lang = "en";
     println!("{:?}", target_lang);
     for entry in &mut po.entries {
-        println!("{}", entry.msgid);
-        println!("{:?}", entry.msgstr);
-        entry.msgstr.replace("xxxx".to_string());
+        if entry.translated() {
+            println!("{}", entry.msgid);
+            println!("{:?}", entry.msgstr);
+            entry.msgstr.replace("".to_string());
+            let url = format!("{0}?s={1}&t={2}&v=hello", api, source_lang, target_lang);
+            println!("{:?}", url);
+            //let r = reqwest::get(url).await?.json::<Trans>().await?;
 
-        let r = reqwest::get("http://0.0.0.0:8089?s=en&t=de&v=hello")
-            .await?
-            .json::<Trans>()
-            .await?;
+            //let mut map = HashMap::new();
+            //println!("{:?}", r.target_value);
+            break;
 
-        //let mut map = HashMap::new();
-        println!("{:?}", r.target_value);
-        break;
-        //break;
-        //println!("{:?}", entry.msgstr);
-        //println!("{:?}", entry.msgstr_plural);
+            //break;
+            //println!("{:?}", entry.msgstr);
+            //println!("{:?}", entry.msgstr_plural);
+        }
     }
-    po.save(p);
+    //po.save(p);
     Ok(())
 }

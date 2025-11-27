@@ -19,7 +19,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: domain-translate.php
 msgid "Domain-translate"
-msgstr "xxxx"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: domain-translate.php
