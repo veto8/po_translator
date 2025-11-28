@@ -50,8 +50,8 @@ async fn main() -> Result<(), Error> {
                 source_lang = po.metadata["X-Source-Language"].as_str();
             }
 
-            println!("{:?}", source_lang);
-            println!("{:?}", target_lang);
+            //println!("{:?}", source_lang);
+            //println!("{:?}", target_lang);
 
             for entry in &mut po.entries {
                 //println!("{}", entry.msgid);
@@ -65,7 +65,7 @@ async fn main() -> Result<(), Error> {
                             "{0}?s={1}&t={2}&v={3}",
                             api, source_lang, target_lang, entry.msgid
                         );
-                        //println!("{:?}", url);
+                        println!("{:?}", url);
 
                         let r = reqwest::get(url).await?.json::<Trans>().await?;
                         println!("{}", &r.target_value);
