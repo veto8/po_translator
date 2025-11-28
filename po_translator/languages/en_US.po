@@ -1,0 +1,510 @@
+# Copyright (C) 2025 veto, Myridia Company
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Domain-translate 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/domain-translate\n"
+"Last-Translator: veto <info@myridia.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-20T21:15:24+00:00\n"
+"PO-Revision-Date: 2025-11-21 04:42+0700\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: domain-translate\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: domain-translate.php
+msgid "Domain-translate"
+msgstr "Domain-translate"
+
+#. Plugin URI of the plugin
+#: domain-translate.php
+msgid "https://wordpress.org/plugins/domain-translate"
+msgstr "https://wordpress.org/plugins/domain-translate"
+
+#. Description of the plugin
+#: domain-translate.php
+msgid ""
+"Automatically translate your Site based on your Domain, a source and target "
+"Language."
+msgstr ""
+"Automatically translate your Site based on your Domain, a source and target "
+"Language."
+
+#. Author of the plugin
+#: domain-translate.php
+msgid "veto, Myridia Company"
+msgstr "veto, Myridia Company"
+
+#. Author URI of the plugin
+#: domain-translate.php
+msgid "http://domain-translate.myridia.com"
+msgstr "http://domain-translate.myridia.com"
+
+#: src/Class/MDT_Admin.php:18
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: src/Class/MDT_Admin.php:19
+msgid "Albanian"
+msgstr "Albanian"
+
+#: src/Class/MDT_Admin.php:20
+msgid "Amharic"
+msgstr "Amharic"
+
+#: src/Class/MDT_Admin.php:21
+msgid "Arabic"
+msgstr "Arabic"
+
+#: src/Class/MDT_Admin.php:22
+msgid "Armenian"
+msgstr "Armenian"
+
+#: src/Class/MDT_Admin.php:23
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: src/Class/MDT_Admin.php:24
+msgid "Basque"
+msgstr "Basque"
+
+#: src/Class/MDT_Admin.php:25
+msgid "Belarusian"
+msgstr "Belarusian"
+
+#: src/Class/MDT_Admin.php:26
+msgid "Bengali"
+msgstr "Bengali"
+
+#: src/Class/MDT_Admin.php:27
+msgid "Bosnian"
+msgstr "Bosnian"
+
+#: src/Class/MDT_Admin.php:28
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: src/Class/MDT_Admin.php:29
+msgid "Catalan"
+msgstr "Catalan"
+
+#: src/Class/MDT_Admin.php:30
+msgid "Cebuano"
+msgstr "Cebuano"
+
+#: src/Class/MDT_Admin.php:31
+msgid "Chichewa"
+msgstr "Chichewa"
+
+#: src/Class/MDT_Admin.php:32
+msgid "Chinese (Simplified)"
+msgstr "Chinese (Simplified)"
+
+#: src/Class/MDT_Admin.php:33
+msgid "Chinese (Traditional)"
+msgstr "Chinese (Traditional)"
+
+#: src/Class/MDT_Admin.php:34
+msgid "Corsican"
+msgstr "Corsican"
+
+#: src/Class/MDT_Admin.php:35
+msgid "Croatian"
+msgstr "Croatian"
+
+#: src/Class/MDT_Admin.php:36
+msgid "Czech"
+msgstr "Czech"
+
+#: src/Class/MDT_Admin.php:37
+msgid "Danish"
+msgstr "Danish"
+
+#: src/Class/MDT_Admin.php:38
+msgid "Dutch"
+msgstr "Dutch"
+
+#: src/Class/MDT_Admin.php:39
+msgid "English"
+msgstr "English"
+
+#: src/Class/MDT_Admin.php:40
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: src/Class/MDT_Admin.php:41
+msgid "Estonian"
+msgstr "Estonian"
+
+#: src/Class/MDT_Admin.php:42
+msgid "Filipino"
+msgstr "Filipino"
+
+#: src/Class/MDT_Admin.php:43
+msgid "Finnish"
+msgstr "Finnish"
+
+#: src/Class/MDT_Admin.php:44
+msgid "French"
+msgstr "French"
+
+#: src/Class/MDT_Admin.php:45
+msgid "Frisian"
+msgstr "Frisian"
+
+#: src/Class/MDT_Admin.php:46
+msgid "Galician"
+msgstr "Galician"
+
+#: src/Class/MDT_Admin.php:47
+msgid "Georgian"
+msgstr "Georgian"
+
+#: src/Class/MDT_Admin.php:48
+msgid "German"
+msgstr "German"
+
+#: src/Class/MDT_Admin.php:49
+msgid "Greek"
+msgstr "Greek"
+
+#: src/Class/MDT_Admin.php:50
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: src/Class/MDT_Admin.php:51
+msgid "Haitian Creole"
+msgstr "Haitian Creole"
+
+#: src/Class/MDT_Admin.php:52
+msgid "Hausa"
+msgstr "Hausa"
+
+#: src/Class/MDT_Admin.php:53
+msgid "Hawaiian"
+msgstr "Hawaiian"
+
+#: src/Class/MDT_Admin.php:54
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: src/Class/MDT_Admin.php:55
+msgid "Hindi"
+msgstr "Hindi"
+
+#: src/Class/MDT_Admin.php:56
+msgid "Hmong"
+msgstr "Hmong"
+
+#: src/Class/MDT_Admin.php:57
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: src/Class/MDT_Admin.php:58
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: src/Class/MDT_Admin.php:59
+msgid "Igbo"
+msgstr "Igbo"
+
+#: src/Class/MDT_Admin.php:60
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: src/Class/MDT_Admin.php:61
+msgid "Irish"
+msgstr "Irish"
+
+#: src/Class/MDT_Admin.php:62
+msgid "Italian"
+msgstr "Italian"
+
+#: src/Class/MDT_Admin.php:63
+msgid "Japanese"
+msgstr "Japanese"
+
+#: src/Class/MDT_Admin.php:64
+msgid "Javanese"
+msgstr "Javanese"
+
+#: src/Class/MDT_Admin.php:65
+msgid "Kannada"
+msgstr "Kannada"
+
+#: src/Class/MDT_Admin.php:66
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: src/Class/MDT_Admin.php:67
+msgid "Khmer"
+msgstr "Khmer"
+
+#: src/Class/MDT_Admin.php:68
+msgid "Korean"
+msgstr "Korean"
+
+#: src/Class/MDT_Admin.php:69
+msgid "Kurdish (Kurmanji)"
+msgstr "Kurdish (Kurmanji)"
+
+#: src/Class/MDT_Admin.php:70
+msgid "Kyrgyz"
+msgstr "Kyrgyz"
+
+#: src/Class/MDT_Admin.php:71
+msgid "Lao"
+msgstr "Lao"
+
+#: src/Class/MDT_Admin.php:72
+msgid "Latin"
+msgstr "Latin"
+
+#: src/Class/MDT_Admin.php:73
+msgid "Latvian"
+msgstr "Latvian"
+
+#: src/Class/MDT_Admin.php:74
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: src/Class/MDT_Admin.php:75
+msgid "Luxembourgish"
+msgstr "Luxembourgish"
+
+#: src/Class/MDT_Admin.php:76
+msgid "Macedonian"
+msgstr "Macedonian"
+
+#: src/Class/MDT_Admin.php:77
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: src/Class/MDT_Admin.php:78
+msgid "Malay"
+msgstr "Malay"
+
+#: src/Class/MDT_Admin.php:79
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: src/Class/MDT_Admin.php:80
+msgid "Maltese"
+msgstr "Maltese"
+
+#: src/Class/MDT_Admin.php:81
+msgid "Maori"
+msgstr "Maori"
+
+#: src/Class/MDT_Admin.php:82
+msgid "Marathi"
+msgstr "Marathi"
+
+#: src/Class/MDT_Admin.php:83
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: src/Class/MDT_Admin.php:84
+msgid "Burmese"
+msgstr "Burmese"
+
+#: src/Class/MDT_Admin.php:85
+msgid "Nepali"
+msgstr "Nepali"
+
+#: src/Class/MDT_Admin.php:86
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: src/Class/MDT_Admin.php:87
+msgid "Odia"
+msgstr "Odia"
+
+#: src/Class/MDT_Admin.php:88
+msgid "Pashto"
+msgstr "Pashto"
+
+#: src/Class/MDT_Admin.php:89
+msgid "Persian"
+msgstr "Persian"
+
+#: src/Class/MDT_Admin.php:90
+msgid "Polish"
+msgstr "Polish"
+
+#: src/Class/MDT_Admin.php:91
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: src/Class/MDT_Admin.php:92
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: src/Class/MDT_Admin.php:93
+msgid "Romanian"
+msgstr "Romanian"
+
+#: src/Class/MDT_Admin.php:94
+msgid "Russian"
+msgstr "Russian"
+
+#: src/Class/MDT_Admin.php:95
+msgid "Samoan"
+msgstr "Samoan"
+
+#: src/Class/MDT_Admin.php:96
+msgid "Scots Gaelic"
+msgstr "Scots Gaelic"
+
+#: src/Class/MDT_Admin.php:97
+msgid "Serbian"
+msgstr "Serbian"
+
+#: src/Class/MDT_Admin.php:98
+msgid "Sesotho"
+msgstr "Sesotho"
+
+#: src/Class/MDT_Admin.php:99
+msgid "Shona"
+msgstr "Shona"
+
+#: src/Class/MDT_Admin.php:100
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: src/Class/MDT_Admin.php:101
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: src/Class/MDT_Admin.php:102
+msgid "Slovak"
+msgstr "Slovak"
+
+#: src/Class/MDT_Admin.php:103
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: src/Class/MDT_Admin.php:104
+msgid "Somali"
+msgstr "Somali"
+
+#: src/Class/MDT_Admin.php:105
+msgid "Spanish"
+msgstr "Spanish"
+
+#: src/Class/MDT_Admin.php:106
+msgid "Sundanese"
+msgstr "Sundanese"
+
+#: src/Class/MDT_Admin.php:107
+msgid "Swahili"
+msgstr "Swahili"
+
+#: src/Class/MDT_Admin.php:108
+msgid "Swedish"
+msgstr "Swedish"
+
+#: src/Class/MDT_Admin.php:109
+msgid "Tajik"
+msgstr "Tajik"
+
+#: src/Class/MDT_Admin.php:110
+msgid "Tamil"
+msgstr "Tamil"
+
+#: src/Class/MDT_Admin.php:111
+msgid "Telugu"
+msgstr "Telugu"
+
+#: src/Class/MDT_Admin.php:112
+msgid "Thai"
+msgstr "Thai"
+
+#: src/Class/MDT_Admin.php:113
+msgid "Turkish"
+msgstr "Turkish"
+
+#: src/Class/MDT_Admin.php:114
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: src/Class/MDT_Admin.php:115
+msgid "Urdu"
+msgstr "Urdu"
+
+#: src/Class/MDT_Admin.php:116
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: src/Class/MDT_Admin.php:117
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: src/Class/MDT_Admin.php:118
+msgid "Welsh"
+msgstr "Welsh"
+
+#: src/Class/MDT_Admin.php:119
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: src/Class/MDT_Admin.php:120
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: src/Class/MDT_Admin.php:121
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: src/Class/MDT_Admin.php:122
+msgid "Zulu"
+msgstr "Zulu"
+
+#: src/Class/MDT_Admin.php:176 src/Class/MDT_Admin.php:177
+msgid "Domain Translate"
+msgstr "Domain Translate"
+
+#: src/Class/MDT_Admin.php:203
+msgid "Settings:"
+msgstr "Settings:"
+
+#: src/Class/MDT_Admin.php:213
+msgid "Active:"
+msgstr "Active:"
+
+#: src/Class/MDT_Admin.php:225
+msgid "Source Lang Code:"
+msgstr "Source Lang Code:"
+
+#: src/Class/MDT_Admin.php:238
+msgid "Domains:"
+msgstr "Domains:"
+
+#: src/Class/MDT_Admin.php:343
+msgid "Domain"
+msgstr "Domain"
+
+#: src/Class/MDT_Admin.php:343
+msgid "Language"
+msgstr "Language"
+
+#: src/Class/MDT_Admin.php:343 src/Class/MDT_Admin.php:362
+msgid "Delete"
+msgstr "Delete"
+
+#: src/Class/MDT_Admin.php:444
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: src/Class/MDT_Admin.php:485
+msgid "Settings saved successfully"
+msgstr "Settings saved successfully"
+
+#: src/Class/MDT_Admin.php:489
+msgid "One domain was invalid and was removed"
+msgstr "One domain was invalid and was removed"

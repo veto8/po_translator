@@ -1,7 +1,7 @@
 .PHONY: api
 
 dev:
-	cargo watch -x run -i de.po -i th.po
+	cargo watch -x run -i *.po -i languages
 release:
 	git pull;\
 	cargo build --release 
