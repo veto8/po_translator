@@ -83,7 +83,9 @@ async fn main() -> Result<(), Error> {
                 }
                 po.save(&p);
             } else {
-                println!("..cannot translate  {0} ", target_lang);
+                //let file = &format!("{0}", p);
+                //let x = fs::remove_file(file);
+                println!("cannot translate {}", file);
             }
         }
     }
