@@ -4,21 +4,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Domain-translate 1.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/domain-translate\n"
+"POT-Creation-Date: 2025-11-20T21:15:24+00:00\n"
+"PO-Revision-Date: 2025-11-20T21:15:24+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: lb_LU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-11-20T21:15:24+00:00\n"
-"PO-Revision-Date: 2025-11-20T21:15:24+00:00\n"
-"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: domain-translate\n"
-"Language: lb_LU\n"
+"X-Generator: WP-CLI 2.12.0\n"
 
 #. Plugin Name of the plugin
 #: domain-translate.php
 msgid "Domain-translate"
-msgstr ""
+msgstr "Domain-iwwersetzen"
 
 #. Plugin URI of the plugin
 #: domain-translate.php
@@ -31,11 +31,13 @@ msgid ""
 "Automatically translate your Site based on your Domain, a source and target "
 "Language."
 msgstr ""
+"Iwwersetzt automatesch Äre Site baséiert op Ärem Domain, eng Quell an "
+"Zilsprooch."
 
 #. Author of the plugin
 #: domain-translate.php
 msgid "veto, Myridia Company"
-msgstr ""
+msgstr "Veto, Myridia Company"
 
 #. Author URI of the plugin
 #: domain-translate.php
@@ -44,464 +46,464 @@ msgstr ""
 
 #: src/Class/MDT_Admin.php:18
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans"
 
 #: src/Class/MDT_Admin.php:19
 msgid "Albanian"
-msgstr ""
+msgstr "Albanesch"
 
 #: src/Class/MDT_Admin.php:20
 msgid "Amharic"
-msgstr ""
+msgstr "Amharesch"
 
 #: src/Class/MDT_Admin.php:21
 msgid "Arabic"
-msgstr ""
+msgstr "Arabesch"
 
 #: src/Class/MDT_Admin.php:22
 msgid "Armenian"
-msgstr ""
+msgstr "Armenesch"
 
 #: src/Class/MDT_Admin.php:23
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Aserbaidschan"
 
 #: src/Class/MDT_Admin.php:24
 msgid "Basque"
-msgstr ""
+msgstr "Baskesch"
 
 #: src/Class/MDT_Admin.php:25
 msgid "Belarusian"
-msgstr ""
+msgstr "wäissrussesch"
 
 #: src/Class/MDT_Admin.php:26
 msgid "Bengali"
-msgstr ""
+msgstr "Bengalesch"
 
 #: src/Class/MDT_Admin.php:27
 msgid "Bosnian"
-msgstr ""
+msgstr "Bosnesch"
 
 #: src/Class/MDT_Admin.php:28
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulgarescg"
 
 #: src/Class/MDT_Admin.php:29
 msgid "Catalan"
-msgstr ""
+msgstr "katalanesch"
 
 #: src/Class/MDT_Admin.php:30
 msgid "Cebuano"
-msgstr ""
+msgstr "Cebuano"
 
 #: src/Class/MDT_Admin.php:31
 msgid "Chichewa"
-msgstr ""
+msgstr "Chichewa"
 
 #: src/Class/MDT_Admin.php:32
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinesesch (vereinfacht)"
 
 #: src/Class/MDT_Admin.php:33
 msgid "Chinese (Traditional)"
-msgstr ""
+msgstr "Chinesesch (traditionell)"
 
 #: src/Class/MDT_Admin.php:34
 msgid "Corsican"
-msgstr ""
+msgstr "korsesch"
 
 #: src/Class/MDT_Admin.php:35
 msgid "Croatian"
-msgstr ""
+msgstr "Kroatesch"
 
 #: src/Class/MDT_Admin.php:36
 msgid "Czech"
-msgstr ""
+msgstr "Tschechesch"
 
 #: src/Class/MDT_Admin.php:37
 msgid "Danish"
-msgstr ""
+msgstr "Dänesch"
 
 #: src/Class/MDT_Admin.php:38
 msgid "Dutch"
-msgstr ""
+msgstr "Hollänesch"
 
 #: src/Class/MDT_Admin.php:39
 msgid "English"
-msgstr ""
+msgstr "Englesch"
 
 #: src/Class/MDT_Admin.php:40
 msgid "Esperanto"
-msgstr ""
+msgstr "esperanto"
 
 #: src/Class/MDT_Admin.php:41
 msgid "Estonian"
-msgstr ""
+msgstr "Estonesch"
 
 #: src/Class/MDT_Admin.php:42
 msgid "Filipino"
-msgstr ""
+msgstr "Filipino"
 
 #: src/Class/MDT_Admin.php:43
 msgid "Finnish"
-msgstr ""
+msgstr "Finnesch"
 
 #: src/Class/MDT_Admin.php:44
 msgid "French"
-msgstr ""
+msgstr "Franséisch"
 
 #: src/Class/MDT_Admin.php:45
 msgid "Frisian"
-msgstr ""
+msgstr "friesesch"
 
 #: src/Class/MDT_Admin.php:46
 msgid "Galician"
-msgstr ""
+msgstr "Galizesch"
 
 #: src/Class/MDT_Admin.php:47
 msgid "Georgian"
-msgstr ""
+msgstr "Georgesch"
 
 #: src/Class/MDT_Admin.php:48
 msgid "German"
-msgstr ""
+msgstr "Däitsch"
 
 #: src/Class/MDT_Admin.php:49
 msgid "Greek"
-msgstr ""
+msgstr "Griichesch"
 
 #: src/Class/MDT_Admin.php:50
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujarati"
 
 #: src/Class/MDT_Admin.php:51
 msgid "Haitian Creole"
-msgstr ""
+msgstr "Haitescht Creole"
 
 #: src/Class/MDT_Admin.php:52
 msgid "Hausa"
-msgstr ""
+msgstr "Haussa"
 
 #: src/Class/MDT_Admin.php:53
 msgid "Hawaiian"
-msgstr ""
+msgstr "Hawaianesch"
 
 #: src/Class/MDT_Admin.php:54
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebräesch"
 
 #: src/Class/MDT_Admin.php:55
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 #: src/Class/MDT_Admin.php:56
 msgid "Hmong"
-msgstr ""
+msgstr "Hmong"
 
 #: src/Class/MDT_Admin.php:57
 msgid "Hungarian"
-msgstr ""
+msgstr "Ungaresch"
 
 #: src/Class/MDT_Admin.php:58
 msgid "Icelandic"
-msgstr ""
+msgstr "Islännesch"
 
 #: src/Class/MDT_Admin.php:59
 msgid "Igbo"
-msgstr ""
+msgstr "Igbo"
 
 #: src/Class/MDT_Admin.php:60
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesesch"
 
 #: src/Class/MDT_Admin.php:61
 msgid "Irish"
-msgstr ""
+msgstr "Iresch"
 
 #: src/Class/MDT_Admin.php:62
 msgid "Italian"
-msgstr ""
+msgstr "Italienesch"
 
 #: src/Class/MDT_Admin.php:63
 msgid "Japanese"
-msgstr ""
+msgstr "Japanesch"
 
 #: src/Class/MDT_Admin.php:64
 msgid "Javanese"
-msgstr ""
+msgstr "Javanesesch"
 
 #: src/Class/MDT_Admin.php:65
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: src/Class/MDT_Admin.php:66
 msgid "Kazakh"
-msgstr ""
+msgstr "kasachesch"
 
 #: src/Class/MDT_Admin.php:67
 msgid "Khmer"
-msgstr ""
+msgstr "Khmer"
 
 #: src/Class/MDT_Admin.php:68
 msgid "Korean"
-msgstr ""
+msgstr "Koreanesch"
 
 #: src/Class/MDT_Admin.php:69
 msgid "Kurdish (Kurmanji)"
-msgstr ""
+msgstr "Kurdesch (Kurmanji)"
 
 #: src/Class/MDT_Admin.php:70
 msgid "Kyrgyz"
-msgstr ""
+msgstr "kirgisesch"
 
 #: src/Class/MDT_Admin.php:71
 msgid "Lao"
-msgstr ""
+msgstr "laotesch"
 
 #: src/Class/MDT_Admin.php:72
 msgid "Latin"
-msgstr ""
+msgstr "laténgesch"
 
 #: src/Class/MDT_Admin.php:73
 msgid "Latvian"
-msgstr ""
+msgstr "Lettesch"
 
 #: src/Class/MDT_Admin.php:74
 msgid "Lithuanian"
-msgstr ""
+msgstr "litauesch"
 
 #: src/Class/MDT_Admin.php:75
 msgid "Luxembourgish"
-msgstr ""
+msgstr "lëtzebuergesch"
 
 #: src/Class/MDT_Admin.php:76
 msgid "Macedonian"
-msgstr ""
+msgstr "Mazedonesch"
 
 #: src/Class/MDT_Admin.php:77
 msgid "Malagasy"
-msgstr ""
+msgstr "Malagasy"
 
 #: src/Class/MDT_Admin.php:78
 msgid "Malay"
-msgstr ""
+msgstr "Malaiesch"
 
 #: src/Class/MDT_Admin.php:79
 msgid "Malayalam"
-msgstr ""
+msgstr "Malajalam"
 
 #: src/Class/MDT_Admin.php:80
 msgid "Maltese"
-msgstr ""
+msgstr "Maltesesch"
 
 #: src/Class/MDT_Admin.php:81
 msgid "Maori"
-msgstr ""
+msgstr "maoresch"
 
 #: src/Class/MDT_Admin.php:82
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
 
 #: src/Class/MDT_Admin.php:83
 msgid "Mongolian"
-msgstr ""
+msgstr "mongolesch"
 
 #: src/Class/MDT_Admin.php:84
 msgid "Burmese"
-msgstr ""
+msgstr "Birmanesch"
 
 #: src/Class/MDT_Admin.php:85
 msgid "Nepali"
-msgstr ""
+msgstr "Nepalesesch"
 
 #: src/Class/MDT_Admin.php:86
 msgid "Norwegian"
-msgstr ""
+msgstr "Norweegesch"
 
 #: src/Class/MDT_Admin.php:87
 msgid "Odia"
-msgstr ""
+msgstr "Odia"
 
 #: src/Class/MDT_Admin.php:88
 msgid "Pashto"
-msgstr ""
+msgstr "pashtu"
 
 #: src/Class/MDT_Admin.php:89
 msgid "Persian"
-msgstr ""
+msgstr "Persesch"
 
 #: src/Class/MDT_Admin.php:90
 msgid "Polish"
-msgstr ""
+msgstr "Polnesch"
 
 #: src/Class/MDT_Admin.php:91
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugisesch"
 
 #: src/Class/MDT_Admin.php:92
 msgid "Punjabi"
-msgstr ""
+msgstr "pundschabi"
 
 #: src/Class/MDT_Admin.php:93
 msgid "Romanian"
-msgstr ""
+msgstr "Rumänesch"
 
 #: src/Class/MDT_Admin.php:94
 msgid "Russian"
-msgstr ""
+msgstr "Russesch"
 
 #: src/Class/MDT_Admin.php:95
 msgid "Samoan"
-msgstr ""
+msgstr "Samoanesch"
 
 #: src/Class/MDT_Admin.php:96
 msgid "Scots Gaelic"
-msgstr ""
+msgstr "Schottesch Gaelesch"
 
 #: src/Class/MDT_Admin.php:97
 msgid "Serbian"
-msgstr ""
+msgstr "serbesch"
 
 #: src/Class/MDT_Admin.php:98
 msgid "Sesotho"
-msgstr ""
+msgstr "Sesotho"
 
 #: src/Class/MDT_Admin.php:99
 msgid "Shona"
-msgstr ""
+msgstr "Shona"
 
 #: src/Class/MDT_Admin.php:100
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindhi"
 
 #: src/Class/MDT_Admin.php:101
 msgid "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #: src/Class/MDT_Admin.php:102
 msgid "Slovak"
-msgstr ""
+msgstr "Slowakesch"
 
 #: src/Class/MDT_Admin.php:103
 msgid "Slovenian"
-msgstr ""
+msgstr "Slowenesch"
 
 #: src/Class/MDT_Admin.php:104
 msgid "Somali"
-msgstr ""
+msgstr "somalesch"
 
 #: src/Class/MDT_Admin.php:105
 msgid "Spanish"
-msgstr ""
+msgstr "Spuenesch"
 
 #: src/Class/MDT_Admin.php:106
 msgid "Sundanese"
-msgstr ""
+msgstr "Sundanesesch"
 
 #: src/Class/MDT_Admin.php:107
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: src/Class/MDT_Admin.php:108
 msgid "Swedish"
-msgstr ""
+msgstr "Schweedesch"
 
 #: src/Class/MDT_Admin.php:109
 msgid "Tajik"
-msgstr ""
+msgstr "Tadschikesch"
 
 #: src/Class/MDT_Admin.php:110
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: src/Class/MDT_Admin.php:111
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: src/Class/MDT_Admin.php:112
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #: src/Class/MDT_Admin.php:113
 msgid "Turkish"
-msgstr ""
+msgstr "tierkesch"
 
 #: src/Class/MDT_Admin.php:114
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrainesch"
 
 #: src/Class/MDT_Admin.php:115
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 #: src/Class/MDT_Admin.php:116
 msgid "Uzbek"
-msgstr ""
+msgstr "Usbekesch"
 
 #: src/Class/MDT_Admin.php:117
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamesesch"
 
 #: src/Class/MDT_Admin.php:118
 msgid "Welsh"
-msgstr ""
+msgstr "Waliser"
 
 #: src/Class/MDT_Admin.php:119
 msgid "Xhosa"
-msgstr ""
+msgstr "xhosa"
 
 #: src/Class/MDT_Admin.php:120
 msgid "Yiddish"
-msgstr ""
+msgstr "jiddesch"
 
 #: src/Class/MDT_Admin.php:121
 msgid "Yoruba"
-msgstr ""
+msgstr "Yoruba"
 
 #: src/Class/MDT_Admin.php:122
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu"
 
 #: src/Class/MDT_Admin.php:176 src/Class/MDT_Admin.php:177
 msgid "Domain Translate"
-msgstr ""
+msgstr "Domain Iwwersetzen"
 
 #: src/Class/MDT_Admin.php:203
 msgid "Settings:"
-msgstr ""
+msgstr "Astellungen:"
 
 #: src/Class/MDT_Admin.php:213
 msgid "Active:"
-msgstr ""
+msgstr "Aktiv:"
 
 #: src/Class/MDT_Admin.php:225
 msgid "Source Lang Code:"
-msgstr ""
+msgstr "Source Lang Code:"
 
 #: src/Class/MDT_Admin.php:238
 msgid "Domains:"
-msgstr ""
+msgstr "Domains:"
 
 #: src/Class/MDT_Admin.php:343
 msgid "Domain"
-msgstr ""
+msgstr "Domain"
 
 #: src/Class/MDT_Admin.php:343
 msgid "Language"
-msgstr ""
+msgstr "Sprooch"
 
 #: src/Class/MDT_Admin.php:343 src/Class/MDT_Admin.php:362
 msgid "Delete"
-msgstr ""
+msgstr "Läschen"
 
 #: src/Class/MDT_Admin.php:444
 msgid "Save Settings"
-msgstr ""
+msgstr "Späicheren Astellungen"
 
 #: src/Class/MDT_Admin.php:485
 msgid "Settings saved successfully"
-msgstr ""
+msgstr "Astellungen erfollegräich gespäichert"
 
 #: src/Class/MDT_Admin.php:489
 msgid "One domain was invalid and was removed"
-msgstr ""
+msgstr "Een Domain war ongëlteg a gouf geläscht"

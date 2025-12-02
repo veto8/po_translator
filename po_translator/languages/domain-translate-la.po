@@ -157,7 +157,7 @@ msgstr "Frisian"
 
 #: src/Class/MDT_Admin.php:46
 msgid "Galician"
-msgstr ""
+msgstr "Gallician"
 
 #: src/Class/MDT_Admin.php:47
 msgid "Georgian"
